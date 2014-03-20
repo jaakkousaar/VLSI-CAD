@@ -65,10 +65,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="CubeList.cpp" />
+    <ClCompile Include="DataExtractor.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cube.h" />
+    <ClInclude Include="CubeList.h" />
+    <ClInclude Include="DataExtractor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
